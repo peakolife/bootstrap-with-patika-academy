@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+     <!--Header here-->
+  <div class="container-fluid  h-100 p-5 text-bg-dark rounded-3">
+    <div class="container col-md-8">
+    <h1>Sözen Araç Alım Satım</h1>
+    <p class="col-md-8 fs-4 lead">En uygun ve kaliteli dorse ve çekicilerinizi siz getirin biz pazarlayalım!</p>
+    <button class="btn btn-outline-light">Click it</button>
+  </div>
+  </div>
+  <!--Nav here-->
+    <nav class="container-sm-fluid text-center nav nav-pills nav-fill">
+        <a href="index.html" class="nav-link link-secondary bg-dark me-1 my-2" area-current="page">Anasayfa</a>
+        <a href="arac-detay.html" class="nav-link link-secondary bg-dark me-1 my-2">Araç Detayları</a>
+        <a href="" class="nav-link link-secondary bg-dark me-0 my-2">Blog</a>
+      </nav>
+    
+
+    <main class="col-sm-12 container">
+        <div class="row">
+            <div class="col-md-2 d-flex flex-column flex-shrink-0 p-3 text-bg-dark" > <!--Aside starts here-->
+                <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <svg class="bi pe-none me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                  </svg>
+                  <span class="fs-4">Sidebar</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                      <svg class="bi pe-none me-2" width="16" height="16">
+                        <use xlink:href="#home"></use>
+                      </svg>
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16">
+                        <use xlink:href="#speedometer2"></use>
+                      </svg>
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16">
+                        <use xlink:href="#table"></use>
+                      </svg>
+                      Orders
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16">
+                        <use xlink:href="#grid"></use>
+                      </svg>
+                      Products
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16">
+                        <use xlink:href="#people-circle"></use>
+                      </svg>
+                      Customers
+                    </a>
+                  </li>
+                </ul>
+                <hr>
+                <div class="dropdown">
+                  <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>mdo</strong>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                  </ul>
+                </div>
+              </div> <!--Aside End-->
+            <div class="col-md-4">
+                <div class="ecommerce-gallery" data-mdb-zoom-effect="true" data-mdb-auto-height="true">
+                    <div class="row py-3 shadow-5">
+                      <div class="col-12 mb-1">
+                        <div class="lightbox">
+                          <img
+                            src="https://res.cloudinary.com/tasit-com/image/upload/c_scale,w_756,h_434,dpr_2/f_webp,q_auto/v1665653440/400.000-tl-alti-2.-el-araba-clio.jpeg?_i=AA"
+                            alt="Gallery image 1"
+                            class="ecommerce-gallery-main-img active w-100"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-3 mt-1">
+                        <img
+                          src="https://www.ilanlarda.com/yonetim/galeri/6791650653.jpg"
+                          data-mdb-img="https://www.ilanlarda.com/yonetim/galeri/6791650653.jpg"
+                          alt="Gallery image 1"
+                          class="active w-100"
+                        />
+                      </div>
+                      <div class="col-3 mt-1">
+                        <img
+                          src="https://i0.shbdn.com/photos/08/06/15/x5_1109080615zmh.jpg"
+                          data-mdb-img="https://i0.shbdn.com/photos/08/06/15/x5_1109080615zmh.jpg"
+                          alt="Gallery image 2"
+                          class="w-100"
+                        />
+                      </div>
+                      <div class="col-3 mt-1">
+                        <img
+                          src="https://www.evanshalshaw.com/-/media/evanshalshaw/renault/car-models/clio/clio-e-tech-hybrid/renault-clio-e-tech-driving-720x405px.ashx?mh=1440&la=en&h=405&w=720&mw=2560&hash=F63F46B9B2CBD012C61AD0D4BA2C39E5"
+                          data-mdb-img="https://www.evanshalshaw.com/-/media/evanshalshaw/renault/car-models/clio/clio-e-tech-hybrid/renault-clio-e-tech-driving-720x405px.ashx?mh=1440&la=en&h=405&w=720&mw=2560&hash=F63F46B9B2CBD012C61AD0D4BA2C39E5"
+                          alt="Gallery image 3"
+                          class="w-100"
+                        />
+                      </div>
+                      <div class="col-3 mt-1">
+                        <img
+                          src="https://www.ddscars.co.uk/wp-content/uploads/Clio-white-front.jpg"
+                          data-mdb-img="https://www.ddscars.co.uk/wp-content/uploads/Clio-white-front.jpg"
+                          alt="Gallery image 4"
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 bg-light">
+                <table class="table">
+                    <tbody>
+                      <tr>
+                        
+                        <td>9.500.000</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+
+                      <tr>
+                        <td>Muğla</td>
+                        <td>Milas</td>
+                        <td>Akyol Mh.</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>İlan no</td>
+                        <td>121212</td>
+                      </tr>
+                      <tr>
+                        <td>İlan Tarihi</td>
+                        <td>10.08.2023</td>
+                    </tr>
+
+                    </tbody>
+                  </table>
+                
+                <h3>Geri kalan bilgiler daha sonra işlenecektir.</h3>
+
+            </div>
+            <div class="col-md-2 bg-light text-dark fw-bold p-sm-4">
+                <h3>Ferit Sözen</h3>
+                <p>Cep Telefon No 
+                    <button class="btn btn-outline-primary text-dark">242343</button>    
+                </p>
+                
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12 d-flex flex-row mb-3">
+                <div class="col-sm p-2 text-center"> <!--start of collapsed btn-->
+                    <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTeknikOzellik" aria-expanded="false" aria-controls="collapseExample">
+                        İlan Detayları
+                    </button>
+                    <div class="collapse" id="collapseTeknikOzellik">
+                        <div class="lead">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed
+                            when the user activates the relevant trigger.
+                        </div>
+                    </div>
+                </div> <!--End of collapsed btn-->
+                <div class="col-sm p-2 ms-0">
+                    <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseIlanDetay" aria-expanded="false" aria-controls="collapseExample">
+                        İlan Teknik Özellikleri
+                    </button>
+                    <div class="collapse" id="collapseIlanDetay">
+                        <div class="lead">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quod, pariatur esse animi corrupti doloremque repudiandae accusantium quae quas ipsum modi possimus eligendi, dolores vero inventore temporibus officia quis nam.
+
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

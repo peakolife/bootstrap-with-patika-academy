@@ -1,0 +1,18 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.bg-orange {
+    background-color: #FFC017;
+}
+.nav-link {
+    margin-right: 3px;
+    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
